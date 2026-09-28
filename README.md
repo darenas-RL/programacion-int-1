@@ -1,2 +1,2 @@
 # programacion-int-1
-trabajo ien hecho
+trabajo bien hecho
