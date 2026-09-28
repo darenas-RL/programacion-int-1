@@ -1,0 +1,80 @@
+/*Estilos generales*/
+body{
+    margin: 0;
+}
+/*Estilos del encabezado*/
+header{
+    width: 100%;
+    height: 370px;
+}
+header img{
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+}
+/*Estilos del menu*/
+nav{
+    background-color: darkseagreen;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    display: relative;
+}
+nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+nav a:hover{
+    background-color: darkkhaki;
+}
+/* Estilos del submenu*/
+nav li ul{
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 180px;
+}
+nav li:hover ul{
+    display: block;
+}
+/*Estilos del pie de pagina*/
+footer{
+    background-color: rgb(13, 141, 141);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+footer img{
+    width: 270px;
+    height: 120px;
+    margin-right: 20px;
+}
+/*Estilos para el cuerpo de la pagina*/
+section{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    min-width: 350px;
+}
+.Principal{
+    width: 70%;
+    background-color: rgb(13, 141, 141);
+    padding: 20px;
+    border: 2px solid black;
+}
+.Secundario{
+    width: 30%;
+    background-color: rgb(13, 141, 141);
+    padding: 20px;
+    border: 2px solid black;
+}
