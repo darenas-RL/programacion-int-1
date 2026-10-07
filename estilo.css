@@ -66,6 +66,16 @@ section{
     padding: 20px;
     min-width: 350px;
 }
+section img{
+    display: block;
+    margin: auto;
+    width: auto;
+    height: 315px;
+}
+section iframe{
+    display: block;
+    margin: auto;
+}
 .Principal{
     width: 70%;
     background-color: rgb(13, 141, 141);
