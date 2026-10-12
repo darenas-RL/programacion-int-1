@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi sitio web</title>
+    <!--Hacemos referencia a los estilos de mi pagina-->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header><img src="logo.jpg"></header>
+    <nav>
+        <ul>
+            <li><a href="actividad 1.html">Conoceme</a>
+            <ul>
+                <li><a href="informacion.html">informacion Personal</a></li>
+                <li><a href="pasatiempos.html">Pasatiempos</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Segunda Parcial</a>
+             <ul>
+                    <li><a href="posiciones.html">posiciones en HTML</a></li>
+                    <li><a href="mundodigital.html">Mundo Digital</a></li>
+                     <li><a href="pactica de posiciones.html">Practica de Posiciones</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Tercer Parcial</a></li>
+        </ul>
+    </nav>
+    <section>
+        <aside class="Principal">
+            <h1>Cómo usar la propiedad de posición en CSS para alinear elementos</h1>
+            <h2>CSS Position y propiedades auxiliares.</h2>
+        <p>Así que hay 5 valores principales de la Propiedad Position:
+            <ul>
+                position:
+                <li>static</li>
+                <li>relative</li>
+                <li>absolute</li>
+                <li>fixed</li>
+                <li>sticky</li>
+            </ul>
+            y propiedades adicionales para establecer las coordenadas de un elemento:
+            <ul>
+                <li>top</li>
+                <li>right</li>
+                <li>bottom</li>
+                <li>left</li>
+                <li>z-index</li>
+            </ul>
+        </p>
+        <h2> z-index</h2>
+        <p>
+            Nosotros tenemos altura y anchura (x, y) son 2 dimensiones. 
+            <br>Z es la 3.ª dimensión. Un elemento en la página web aparece 
+            <br>delante de otros elementos como su z-index aumenta el valor.
+        </p>
+
+         <h2>1. Static</h2>
+        <p>
+            Position: static es el valor por defecto. Ya sea que lo declaremos 
+            <br>o no, los elementos se colocan en un orden normal en la página web. 
+            <br>Pongamos un ejemplo:
+        </p>
+        <div class="box-orange"></div>
+        <div class="box-blue"></div>
+
+         <h2>2. Relative</h2>
+        <p>
+            Position: relative nos permite mover un elemento de su posición 
+            <br>original. Podemos usar top, right, bottom y left para moverlo. 
+            <br>El espacio que ocupaba el elemento en su posición original permanece.
+        </p>
+        <div class="box-orange1"></div>
+        <div class="box-blue1"></div>
+
+        <h2>3. Absolute</h2>
+        <p>
+            Position: absolute nos permite colocar un elemento en una posición 
+            <br>específica dentro de su contenedor más cercano que tenga 
+            <br>position: relative. Si no hay un contenedor con position: relative, 
+            <br>el elemento se posicionará automáticamente en el punto de inicio (top-left esquina) de su elemento padre.
+        </p>
+         <div class="container">
+    <div class="box-orange2"></div>
+    <div class="box-blue2"></div>
+  </div>
+  <p>
+    Ahora parece que la caja azul ha desaparecido, pero no es así. 
+    <br>El cuadro azul se comporta como si se quitara el cuadro naranja, 
+    <br>por lo que sube al lugar del cuadro naranja.
+    </p>
+    <div class="container">
+        <div class="box-orange3"></div>
+        <div class="box-blue3"></div>
+    </div>
+    
+     <h2>4. Fixed</h2>
+        <p>
+            Position: fixed nos permite colocar un elemento en una posición 
+            <br>específica en la ventana del navegador. El elemento permanece en esa 
+            <br>posición incluso si el usuario desplaza la página.
+        </p>
+        <div class="container1">
+        <div class="box-orange4"></div>
+        <div class="box-blue4"></div>
+    </div>
+
+        <h2>5. Sticky</h2>
+        <p>
+            Position: sticky es una combinación de relative y fixed. 
+            <br>El elemento se comporta como relative hasta que alcanza un 
+            <br>umbral definido por top, right, bottom o left, momento en el cual 
+            <br>se comporta como fixed.
+        </p>
+         <div class="cuadro-naranja"></div>
+
+        </aside>
+         <aside class="Secundario">
+            <h2>Recuerden:</h2>
+            La vida solo es una y debes de disfrutarla.
+         </aside>
+    </section>
+    <footer>
+        <img src="dos líneas centrado v3.png">
+        <div>
+            <p><strong>Universidad de Colima</strong></p>
+            <p>Bachillerato 8</p>
+            <p>Programacion en Internet I</p>
+        </div>
+    </footer>
+</body>
+</html>

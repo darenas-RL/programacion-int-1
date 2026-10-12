@@ -88,3 +88,92 @@ section iframe{
     padding: 20px;
     border: 2px solid black;
 }
+
+.box-orange {          
+  background: orange;
+  height: 100px;
+  width: 100px;       
+}
+.box-blue {
+  background: lightskyblue;
+  height: 100px;
+  width: 100px; 
+  position: static;   
+}
+
+.box-orange1 {
+  position: relative;  
+  background: orange;
+  width: 100px;
+  height: 100px;
+  top: 100px;       
+  left: 100px;       
+}
+.box-blue1 {
+  background: lightskyblue;
+  height: 100px;
+  width: 100px; 
+  position: static;   
+}
+
+.container {
+  position: relative;
+  background: lightgray;
+}
+.box-orange2 {
+  position: absolute;
+  background: orange;
+  width: 100px;
+  height: 100px;
+}
+.box-blue2 {
+  background: lightskyblue;
+  height: 100px;
+  width: 100px; 
+  position: static;   
+}
+.box-orange3 {
+  position: absolute;
+  background: orange;
+  width: 100px;
+  height: 100px;
+  left: 5px;
+  top: 5px;
+}
+.box-blue3 {
+  background: lightskyblue;
+  height: 100px;
+  width: 100px; 
+  position: static;   
+}
+
+.container1 {
+  position: relative;
+  background: lightgray;
+  width: 300px;
+  height: 300px;
+   
+}
+
+.box-orange4 {
+  position: fixed;
+  background: orange;
+  width: 100px;
+  height: 100px;
+  right: 5px;   
+}
+.box-blue4 {
+  background: lightskyblue;
+  height: 100px;
+  width: 100px; 
+  position: static;   
+}
+
+ .cuadro-naranja {
+      width: 200px;
+      height: 100px;
+      background-color: orange;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
